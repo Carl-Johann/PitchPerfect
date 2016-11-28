@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		23C41B821DEB45260073668A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		23C41B841DEB45320073668A /* lortlort.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = lortlort.entitlements; sourceTree = "<group>"; };
-		23E90B851DE896DE00FE67FA /* lortlort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lortlort.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23E90B851DE896DE00FE67FA /* FedLyd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FedLyd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E90B881DE896DE00FE67FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23E90B8A1DE896DE00FE67FA /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		23E90B8D1DE896DE00FE67FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		23E90B7C1DE896DE00FE67FA = {
 			isa = PBXGroup;
 			children = (
-				23E90B871DE896DE00FE67FA /* lortlort */,
+				23E90B871DE896DE00FE67FA /* FedLyd */,
 				23E90B861DE896DE00FE67FA /* Products */,
 				23C41B811DEB45260073668A /* Frameworks */,
 			);
@@ -59,12 +59,12 @@
 		23E90B861DE896DE00FE67FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				23E90B851DE896DE00FE67FA /* lortlort.app */,
+				23E90B851DE896DE00FE67FA /* FedLyd.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		23E90B871DE896DE00FE67FA /* lortlort */ = {
+		23E90B871DE896DE00FE67FA /* FedLyd */ = {
 			isa = PBXGroup;
 			children = (
 				23C41B841DEB45320073668A /* lortlort.entitlements */,
@@ -75,15 +75,16 @@
 				23E90B911DE896DE00FE67FA /* LaunchScreen.storyboard */,
 				23E90B941DE896DE00FE67FA /* Info.plist */,
 			);
+			name = FedLyd;
 			path = lortlort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		23E90B841DE896DE00FE67FA /* lortlort */ = {
+		23E90B841DE896DE00FE67FA /* FedLyd */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 23E90B971DE896DE00FE67FA /* Build configuration list for PBXNativeTarget "lortlort" */;
+			buildConfigurationList = 23E90B971DE896DE00FE67FA /* Build configuration list for PBXNativeTarget "FedLyd" */;
 			buildPhases = (
 				23E90B811DE896DE00FE67FA /* Sources */,
 				23E90B821DE896DE00FE67FA /* Frameworks */,
@@ -93,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = lortlort;
+			name = FedLyd;
 			productName = lortlort;
-			productReference = 23E90B851DE896DE00FE67FA /* lortlort.app */;
+			productReference = 23E90B851DE896DE00FE67FA /* FedLyd.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -123,7 +124,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 23E90B801DE896DE00FE67FA /* Build configuration list for PBXProject "lortlort" */;
+			buildConfigurationList = 23E90B801DE896DE00FE67FA /* Build configuration list for PBXProject "FedLyd" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -136,7 +137,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				23E90B841DE896DE00FE67FA /* lortlort */,
+				23E90B841DE896DE00FE67FA /* FedLyd */,
 			);
 		};
 /* End PBXProject section */
@@ -310,7 +311,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		23E90B801DE896DE00FE67FA /* Build configuration list for PBXProject "lortlort" */ = {
+		23E90B801DE896DE00FE67FA /* Build configuration list for PBXProject "FedLyd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				23E90B951DE896DE00FE67FA /* Debug */,
@@ -319,7 +320,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		23E90B971DE896DE00FE67FA /* Build configuration list for PBXNativeTarget "lortlort" */ = {
+		23E90B971DE896DE00FE67FA /* Build configuration list for PBXNativeTarget "FedLyd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				23E90B981DE896DE00FE67FA /* Debug */,

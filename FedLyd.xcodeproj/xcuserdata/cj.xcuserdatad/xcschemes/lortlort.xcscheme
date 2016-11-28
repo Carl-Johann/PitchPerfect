@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "23E90B841DE896DE00FE67FA"
-               BuildableName = "lortlort.app"
-               BlueprintName = "lortlort"
-               ReferencedContainer = "container:lortlort.xcodeproj">
+               BuildableName = "FedLyd.app"
+               BlueprintName = "FedLyd"
+               ReferencedContainer = "container:FedLyd.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "23E90B841DE896DE00FE67FA"
-            BuildableName = "lortlort.app"
-            BlueprintName = "lortlort"
-            ReferencedContainer = "container:lortlort.xcodeproj">
+            BuildableName = "FedLyd.app"
+            BlueprintName = "FedLyd"
+            ReferencedContainer = "container:FedLyd.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "23E90B841DE896DE00FE67FA"
-            BuildableName = "lortlort.app"
-            BlueprintName = "lortlort"
-            ReferencedContainer = "container:lortlort.xcodeproj">
+            BuildableName = "FedLyd.app"
+            BlueprintName = "FedLyd"
+            ReferencedContainer = "container:FedLyd.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "23E90B841DE896DE00FE67FA"
-            BuildableName = "lortlort.app"
-            BlueprintName = "lortlort"
-            ReferencedContainer = "container:lortlort.xcodeproj">
+            BuildableName = "FedLyd.app"
+            BlueprintName = "FedLyd"
+            ReferencedContainer = "container:FedLyd.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
