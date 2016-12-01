@@ -25,7 +25,6 @@ class recordsoundsViewController: UIViewController, AVAudioRecorderDelegate {
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        print("viewWillAppear was called")
     }
     
     @IBAction func recordAudio(_ sender: Any) {
@@ -37,7 +36,6 @@ class recordsoundsViewController: UIViewController, AVAudioRecorderDelegate {
         let recordingName = "recordedVoice.wav"
         let pathArray = [dirPath, recordingName]
         let filePath = URL(string: pathArray.joined(separator: "/"))
-
         let session = AVAudioSession.sharedInstance()
         try! session.setCategory(AVAudioSessionCategoryPlayAndRecord, with:AVAudioSessionCategoryOptions.defaultToSpeaker)
         
@@ -52,7 +50,6 @@ class recordsoundsViewController: UIViewController, AVAudioRecorderDelegate {
         recordingLabel.text = "Tap to record"
         recordingButton.isEnabled = true
         stopButton.isEnabled = false
-    
         audioRecorder.stop()
         let audioSession = AVAudioSession.sharedInstance()
         try! audioSession.setActive(false)
@@ -72,7 +69,7 @@ class recordsoundsViewController: UIViewController, AVAudioRecorderDelegate {
         if (segue.identifier == "stopRecording") {
             let playSoundsVC = segue.destination as! PlaySoundsViewController
             let recordedAudioURL = sender as! NSURL
-            print("Recorded Audio URL: \(recordedAudioURL)")
+            //print("Recorded Audio URL: \(recordedAudioURL)")
             playSoundsVC.recordedAudioURL = recordedAudioURL
         }
     }
