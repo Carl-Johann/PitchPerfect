@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23C41B801DE99F040073668A /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E90B8A1DE896DE00FE67FA /* RecordSoundsViewController.swift */; };
+		23C41B801DE99F040073668A /* recordsoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E90B8A1DE896DE00FE67FA /* recordsoundsViewController.swift */; };
 		23C41B831DEB45260073668A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C41B821DEB45260073668A /* MapKit.framework */; };
+		23C41B861DEC6B440073668A /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C41B851DEC6B440073668A /* PlaySoundsViewController.swift */; };
+		23C41B8C1DEF31EE0073668A /* playsoundsviewcontroller+audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C41B8B1DEF31EE0073668A /* playsoundsviewcontroller+audio.swift */; };
 		23E90B891DE896DE00FE67FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E90B881DE896DE00FE67FA /* AppDelegate.swift */; };
 		23E90B8E1DE896DE00FE67FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23E90B8C1DE896DE00FE67FA /* Main.storyboard */; };
 		23E90B901DE896DE00FE67FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23E90B8F1DE896DE00FE67FA /* Assets.xcassets */; };
@@ -18,9 +20,11 @@
 /* Begin PBXFileReference section */
 		23C41B821DEB45260073668A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		23C41B841DEB45320073668A /* lortlort.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = lortlort.entitlements; sourceTree = "<group>"; };
+		23C41B851DEC6B440073668A /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		23C41B8B1DEF31EE0073668A /* playsoundsviewcontroller+audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "playsoundsviewcontroller+audio.swift"; sourceTree = "<group>"; };
 		23E90B851DE896DE00FE67FA /* FedLyd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FedLyd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E90B881DE896DE00FE67FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		23E90B8A1DE896DE00FE67FA /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
+		23E90B8A1DE896DE00FE67FA /* recordsoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = recordsoundsViewController.swift; path = lortlort/recordsoundsViewController.swift; sourceTree = SOURCE_ROOT; };
 		23E90B8D1DE896DE00FE67FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23E90B8F1DE896DE00FE67FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23E90B921DE896DE00FE67FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,11 +73,13 @@
 			children = (
 				23C41B841DEB45320073668A /* lortlort.entitlements */,
 				23E90B881DE896DE00FE67FA /* AppDelegate.swift */,
-				23E90B8A1DE896DE00FE67FA /* RecordSoundsViewController.swift */,
+				23E90B8A1DE896DE00FE67FA /* recordsoundsViewController.swift */,
 				23E90B8C1DE896DE00FE67FA /* Main.storyboard */,
 				23E90B8F1DE896DE00FE67FA /* Assets.xcassets */,
 				23E90B911DE896DE00FE67FA /* LaunchScreen.storyboard */,
 				23E90B941DE896DE00FE67FA /* Info.plist */,
+				23C41B851DEC6B440073668A /* PlaySoundsViewController.swift */,
+				23C41B8B1DEF31EE0073668A /* playsoundsviewcontroller+audio.swift */,
 			);
 			name = FedLyd;
 			path = lortlort;
@@ -160,7 +166,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23C41B801DE99F040073668A /* RecordSoundsViewController.swift in Sources */,
+				23C41B801DE99F040073668A /* recordsoundsViewController.swift in Sources */,
+				23C41B8C1DEF31EE0073668A /* playsoundsviewcontroller+audio.swift in Sources */,
+				23C41B861DEC6B440073668A /* PlaySoundsViewController.swift in Sources */,
 				23E90B891DE896DE00FE67FA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
