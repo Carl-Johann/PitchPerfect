@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-class recordsoundsViewController: UIViewController, AVAudioRecorderDelegate {
+class RecordsoundsViewController: UIViewController, AVAudioRecorderDelegate {
 
     var audioRecorder: AVAudioRecorder!
     
@@ -69,7 +69,6 @@ class recordsoundsViewController: UIViewController, AVAudioRecorderDelegate {
         if (segue.identifier == "stopRecording") {
             let playSoundsVC = segue.destination as! PlaySoundsViewController
             let recordedAudioURL = sender as! NSURL
-            //print("Recorded Audio URL: \(recordedAudioURL)")
             playSoundsVC.recordedAudioURL = recordedAudioURL
         }
     }
